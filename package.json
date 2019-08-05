@@ -1,11 +1,9 @@
 {
   "name": "marky-mark",
   "version": "1.0.0",
-  "description": "bookmark manager",
-  "main": "server/index.js",
+  "private": true,
   "scripts": {
-    "test": "test",
-    "server": "nodemon server/index.js"
+    "start": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -16,12 +14,18 @@
   "bugs": {
     "url": "https://github.com/rthauby/marky-mark/issues"
   },
-  "homepage": "https://github.com/rthauby/marky-mark#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
     "knex": "^0.19.1",
+    "morgan": "~1.9.1",
     "nodemon": "^1.19.1",
     "objection": "^1.6.9",
-    "pg": "^7.12.0"
+    "pg": "^7.12.0",
+    "pug": "2.0.0-beta11",
+    "sqlite3": "^4.0.9"
   }
 }
