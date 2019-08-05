@@ -1,0 +1,27 @@
+{
+  "name": "marky-mark",
+  "version": "1.0.0",
+  "description": "bookmark manager",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rthauby@github.com/rthauby/marky-mark.git"
+  },
+  "author": "Rodrigo Thauby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rthauby/marky-mark/issues"
+  },
+  "homepage": "https://github.com/rthauby/marky-mark#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.1",
+    "nodemon": "^1.19.1",
+    "objection": "^1.6.9",
+    "pg": "^7.12.0"
+  }
+}
